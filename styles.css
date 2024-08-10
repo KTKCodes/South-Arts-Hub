@@ -4,12 +4,23 @@ body {
 }
 
 .title{
-    font-size: 5vw;
+    font-size: 4vw;
+    text-align: left;
+    
 }
 
-h3 {
+.heading{
+    text-align: center;
+    font-size: 2.5vw;
+}
+
+#blurb {
+    text-align: left;
     font-size: 2vw;
-    text-decoration: none;
+}
+
+#logo {
+    width: 100%;
 }
 
 ul {
@@ -29,10 +40,12 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    transition: 0.3s;
+    border-radius: 4px;
 }
 
 li a:hover {
-    background-color: #e0bc59;
+    background-color: lightpink;
 }
 
 .topnav {
@@ -40,42 +53,67 @@ li a:hover {
     padding: 20px;
 }
 
-th, td {
-    text-align: center;
-}
-
-table {
-    width: 100%;
-}
-
 footer {
-    background-color: #e0bc59;
-    padding: 30px;
+    background-color: lightpink;
 }
 
 section {
     background-color: white;
-     text-align: center;
+    text-align: center;
     text-decoration: none;
 }
 #sec1 {
-    padding: 100px;
+    padding: 90px 0px;    
 }
 
 #sec2 {
-    padding: 70px;
+    padding: 80px;
+}
+
+#sec3 {
+    padding: 30px;
+}
+
+.events {
+    padding: 50px 0px;
 }
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     border-radius: 5px;
+ 
   }
   
-  .card:hover {
+.card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    cursor: pointer;
   }
   
-  .container {
+.container {
     padding: 2px 16px;
   }
+
+.card_container {
+    display: flex;
+    justify-content: space-around;
+    margin:25px 0px;
+  }
+
+div.col {
+    text-align: center; 
+    cursor: pointer;  
+}
+
+.btn {
+    background: #ff914d !important;
+}
+
+.btn:hover {
+    background-color: #d65200 !important;
+    color: #ffffff !important;
+}
+
+div.row {
+    justify-content: center;
+}
