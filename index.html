@@ -10,14 +10,40 @@
 
     <body>
 
-         <ul class="topnav">
-            <li><a href="events.html"><b>Events</a></li>
-            <li><a href="blogs.html">Blogs</a></li>
-            <li><a href="news.html">News</a></li>
-            <li><a href="learn.html">Learn</a></li>
-            <li style="float:left"><img src="img\staticlogo.png" alt="logo" height=50px></li>
-            <li style="float:left"><a href="index.html">South Arts Hub</b></a></li>
-         </ul>
+        <nav class="navbar navbar-expand-md bg-body-tertiary">
+            <div class="container">
+                <!--brand-->
+              <a class="navbar-brand" href="index.html">
+                <img src="img/staticlogo.png" alt="Logo" width="45px" class="logopng">
+                South Arts Hub
+            </a>
+                <!--Hamburger button/toggler-->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <!--set of links-->
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="WIP.html">Learn</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="WIP.html">Blogs</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="WIP.html">News</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="events.html">Events</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
 
         <section id="sec1">
             <div class="container text-center">
@@ -27,23 +53,23 @@
                   </div>
                   <div class="col-md-6">
                     <h1 class="title">Welcome to your local Arts and Culture Hub!</h1> <br>
-                    <h3 id="blurb"> Covering Surrey and Hampshire, UK. <br> We bring you the latest in art news, events, craft fairs, skills and techniques.</h3>
+                    <p id="blurb"> Covering Surrey and Hampshire, UK. <br> We bring you the latest in art news, events, craft fairs, skills and techniques.</p>
                   </div>
                 </div>
             </div>  
         </section>
 
         <section id="sec2">
-            <div class="container text-center">
+            <div class="container-fluid text-center">
                 <div class="row align-items-start">
-                  <div class="col-md-6">
+                  <div class="col-md-4">
                     <h1>Our Mission</h1>
                   </div>
                   <div class="col-md-6">
                     To be the indispensable digital hub for Surrey and Hampshire's thriving arts and culture scene. 
-              We aim to inspire, inform, and connect artists, audiences, and learners through a comprehensive platform that showcases local talent, facilitates artistic growth, 
-              and enriches the cultural fabric of our region. By providing a wealth of information, resources, and opportunities, we strive to make the arts accessible to everyone 
-              and foster a vibrant, creative community.
+                    We aim to inspire, inform, and connect artists, audiences, and learners through a comprehensive platform that showcases local talent, facilitates artistic growth, 
+                    and enriches the cultural fabric of our region. By providing a wealth of information, resources, and opportunities, we strive to make the arts accessible to everyone 
+                    and foster a vibrant, creative community.
                   </div>
                 </div>
               </div>
@@ -51,33 +77,32 @@
 
         <section id="sec3">
             <h1>Find Events Near You</h1>
-
             <div class="card_container">
                 <div class="row">
                     <div class="col-md-3">
-                        <div class="card">
+                        <a href="events.html#Exhibitions"><div class="card">
                             <img src="img\Exhibitions.jpg" alt="Photo by Dannie Jing on Unsplash - Gallery Image" style="width:100%">
                             <div class="container">
                                 <h4><b>Exhibitions</b></h4>
-                                <p>Click to find out more</p>
+                                <p>Click to find out more</p></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-3">
-                        <div class="card">
+                        <a href="events.html#CraftFairs"><div class="card">
                             <img src="img\annie-spratt-TywjkDHf0Ps-unsplash.jpg" alt="Photo by Annie Spratt on Unsplash - Craft Fair Image" style="width:100%">
                             <div class="container">
                                 <h4><b>Craft Fairs</b></h4>
-                                <p>Click to find out more</p>
+                                <p>Click to find out more</p></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-3">
-                        <div class="card">
+                        <a href="events.html#Workshops"><div class="card">
                             <img src="img\jasmin-schreiber-JE4iHJE-knI-unsplash.jpg" alt="Photo by Jasmin Schreiber on Unsplash" style="width:100%">
                             <div class="container">
                                 <h4><b>Workshops</b></h4>
-                                <p>Click to find out more</p>
+                                <p>Click to find out more</p></a>
                             </div>
                         </div>
                     </div>

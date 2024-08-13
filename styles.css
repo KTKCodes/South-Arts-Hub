@@ -1,12 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
 body {
-    font-family: sans-serif;
+    font-family: "Source Sans 3", sans-serif !important;
     margin: 0;
 }
 
 .title{
-    font-size: 4vw;
+    font-size: 4.5rem;
     text-align: left;
-    
+    font-family: "Lora", sans-serif !important;
+    font-weight: 600 !important;
 }
 
 .heading{
@@ -16,14 +20,21 @@ body {
 
 #blurb {
     text-align: left;
-    font-size: 2vw;
+    font-size: 1.7rem;
+    font-style: italic;
 }
 
 #logo {
     width: 100%;
 }
 
-ul {
+li a:hover{
+    background-color: #ff914d;
+    transition: 0.4s;
+    border-radius: 5px;
+}
+
+/*ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -51,7 +62,7 @@ li a:hover {
 .topnav {
     border-bottom: 1px solid #ddd;
     padding: 20px;
-}
+}*/
 
 footer {
     background-color: lightpink;
@@ -67,7 +78,7 @@ section {
 }
 
 #sec2 {
-    padding: 80px;
+    padding: 80px 0px;
 }
 
 #sec3 {
@@ -75,14 +86,13 @@ section {
 }
 
 .events {
-    padding: 50px 0px;
+    padding: 60px 20px;
 }
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     border-radius: 5px;
- 
   }
   
 .card:hover {
@@ -93,6 +103,10 @@ section {
 .container {
     padding: 2px 16px;
   }
+
+.container1{
+    padding: 170px 20px
+}
 
 .card_container {
     display: flex;
@@ -116,4 +130,9 @@ div.col {
 
 div.row {
     justify-content: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Lora", sans-serif !important;
+    font-weight: 600 !important;
 }
