@@ -80,6 +80,10 @@ h1, h2, h3, h4, h5, h6{
     font-size: 2.5rem;
 }
 
+.mission {
+    font-size: 1.2rem;
+}
+
 .events {
     padding: 4rem 1.25rem;
 }
